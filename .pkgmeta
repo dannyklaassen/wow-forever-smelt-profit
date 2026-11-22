@@ -1,0 +1,4 @@
+package-as: SmeltProfit
+
+ignore:
+  - check.lua

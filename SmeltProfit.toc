@@ -1,0 +1,10 @@
+## Interface: 16001
+## Title: Smelt Profit
+## Notes: Scans ores and bars on the auction house and shows which smelts turn a profit.
+## Version: 0.2.0
+## SavedVariables: SmeltProfitDB
+
+Libs/LibStub/LibStub.lua
+Libs/LibAHTab/LibAHTab.lua
+Recipes.lua
+SmeltProfit.lua
