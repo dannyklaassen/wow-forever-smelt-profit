@@ -37,7 +37,7 @@ local function refresh()
         row[2]:SetText(money(e.buy))
         row[3]:SetText(money(e.sell))
         row[4]:SetText(money(e.deposit))
-        local color = not e.profit and "" or e.profit > 0 and "|cff40ff40" or "|cffff4040"
+        local color = (not e.profit or e.profit == 0) and "" or e.profit > 0 and "|cff40ff40" or "|cffff4040"
         row[5]:SetText(color .. money(e.profit) .. "|r")
     end
 end
